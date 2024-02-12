@@ -75,7 +75,7 @@ export async function voteOnPoll(app: FastifyInstance) {
       votes: Number(votes)
     })
 
-    return reply.status(201).send({ message: "Vote computed successfully" })
+    return reply.status(201).send({ message: "Vote registered successfully" })
   })
 }
 
